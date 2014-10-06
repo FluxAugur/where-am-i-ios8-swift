@@ -13,6 +13,7 @@
 		A71A22DD19CD92F1008D4E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71A22DC19CD92F1008D4E75 /* Images.xcassets */; };
 		A71A22E019CD92F2008D4E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71A22DE19CD92F2008D4E75 /* LaunchScreen.xib */; };
 		A71A22EC19CD92F2008D4E75 /* Where_Am_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71A22EB19CD92F2008D4E75 /* Where_Am_ITests.swift */; };
+		A71A22F619CD9316008D4E75 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71A22F519CD9316008D4E75 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A71A22E519CD92F2008D4E75 /* Where Am ITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where Am ITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71A22EA19CD92F2008D4E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A71A22EB19CD92F2008D4E75 /* Where_Am_ITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_ITests.swift; sourceTree = "<group>"; };
+		A71A22F519CD9316008D4E75 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71A22F619CD9316008D4E75 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		A71A22C719CD92F1008D4E75 = {
 			isa = PBXGroup;
 			children = (
+				A71A22F519CD9316008D4E75 /* CoreLocation.framework */,
 				A71A22D219CD92F1008D4E75 /* Where Am I */,
 				A71A22E819CD92F2008D4E75 /* Where Am ITests */,
 				A71A22D119CD92F1008D4E75 /* Products */,
